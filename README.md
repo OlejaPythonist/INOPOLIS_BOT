@@ -1,4 +1,7 @@
 # Бот для кейса от университета "Инополис" на хакатоне 2023
+
+<a href="https://hub.docker.com/repository/docker/olegpythondev/inopolisbot"><img src="https://img.shields.io/badge/Docker%20Hub-inopolis_bot-blue"></a> 
+
 Бот разработан специально для университета "Инополис". 
 Его задача собирать информацию с их оффициального сайта и предоставлять ее студентам в мессенджере Telegram.
 ## Используемые технологии
