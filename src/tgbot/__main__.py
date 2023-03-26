@@ -1,11 +1,12 @@
 import logging
+import os
 
 from aiogram import Bot, Dispatcher, executor  # type: ignore
 from handlers.user import register_handlers
 
 
 def create_bot() -> Dispatcher:
-    API_TOKEN = "5898637870:AAHcm8TsaycPaxLEXrOg-v1F5x5RZRbG08M"
+    API_TOKEN = os.environ["BOT_TOKEN"]
 
     logging.basicConfig(level=logging.INFO)
 
