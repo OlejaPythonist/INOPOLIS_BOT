@@ -2,7 +2,7 @@ import logging
 import os
 
 from aiogram import Bot, Dispatcher, executor  # type: ignore
-from bot.handlers.user import register_handlers
+from tgbot.handlers.user import register_handlers
 
 
 def create_bot() -> Dispatcher:
