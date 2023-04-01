@@ -2,8 +2,8 @@ import asyncio
 from typing import Callable, Iterator
 from aiogram import Dispatcher  # type: ignore
 from aiogram import types
-from keyboards.user import commands_keyboard
-from parsing.parse_info import (
+from tgbot.keyboards.user import commands_keyboard
+from tgbot.parsing.parse_info import (
     get_bachelor_text,
     get_master_text,
     get_postgraduate_text,
